@@ -1,0 +1,100 @@
+/* Profile Image Upload */
+.profile-image-upload {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.profile-image-upload img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-image-upload .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 50%;
+}
+
+.profile-image-upload:hover .overlay {
+  opacity: 1;
+}
+
+/* General Styles */
+.container {
+  padding-bottom: 2rem;
+}
+
+.table {
+  background-color: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 1.5rem;
+}
+
+.btn-sm {
+  min-width: 60px;
+}
+
+.form-control, .form-select {
+  max-width: 500px;
+}
+
+/* Profile Image Upload Styles */
+.profile-image-upload {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image-upload .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.profile-image-upload:hover .overlay {
+  opacity: 1;
+}
+
+/* Alert animations */
+.alert {
+  transition: all 0.3s ease;
+}
+
+/* Spinner styles */
+.spinner-border {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: 0.2em;
+}

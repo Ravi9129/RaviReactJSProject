@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": "emp-8f2adf19-3dc3-444e-8b7b-ed2035c57ab5",
+      "name": "Ravi Rajput",
+      "email": "ravirajput1230@gmail.com",
+      "phone": "9129868608",
+      "department": "IT",
+      "position": "sdfg",
+      "salary": "23",
+      "joinDate": "2025-04-27",
+      "createdBy": "fa94",
+      "creatorName": "Ravi",
+      "createdAt": "2025-04-26T21:49:38.510Z",
+      "updatedBy": "fa94",
+      "updatedAt": "2025-04-26T21:50:32.807Z"
+    },
+    {
+      "id": "emp-a5fa1603-81e0-4205-af3b-5c4dff69e7b7",
+      "name": "Ravi adawsdfg Rajput",
+      "email": "ravirajput1230@gmail.com",
+      "phone": "9129868608",
+      "department": "IT",
+      "position": "sdfg",
+      "salary": "23",
+      "joinDate": "2025-04-27",
+      "createdBy": "fa94",
+      "creatorName": "Ravi",
+      "createdAt": "2025-04-26T21:51:54.331Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "$2a$10$X5wDFt5vWJkz6QZ7QYqZ3.9tTDdD0QbQ7QcQdQeQfQgQhQiQjQkQl",
+      "role": "admin",
+      "profileImage": " ",
+      "createdAt": "2023-01-01"
+    },
+    {
+      "id": "fa94",
+      "username": "Ravi",
+      "email": "ravirajput1230@gmail.com",
+      "password": "$2b$10$xMJ53h6BvpwUo7.221bAkep4R.DC4IP7FJFQPCZ7Tj6xkm71L.yIO",
+      "confirmPassword": "Ravi@123",
+      "role": "user",
+      "createdAt": "2025-04-26T20:22:00.534Z",
+      "profileImage": "profile-1745702430302.jpg",
+      "bio": "ravii"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "b225",
+      "userId": "fa94"
+    }
+  ],
+  "uploads": []
+}
