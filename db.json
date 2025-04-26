@@ -31,7 +31,7 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "email": "admin@example.com",
       "password": "$2a$10$X5wDFt5vWJkz6QZ7QYqZ3.9tTDdD0QbQ7QcQdQeQfQgQhQiQjQkQl",
@@ -54,6 +54,10 @@
   "sessions": [
     {
       "id": "b225",
+      "userId": "fa94"
+    },
+    {
+      "id": "57ee",
       "userId": "fa94"
     }
   ],
